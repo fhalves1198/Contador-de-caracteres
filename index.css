@@ -1,0 +1,71 @@
+* {
+  margin: 0
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+nav {
+  border-bottom: 1px solid black;
+  flex: 0.05;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+}
+nav h1 {
+ letter-spacing: .8rem; 
+ color: rgb(29, 231, 120);
+text-shadow: 2px 2px rgba(235, 238, 238, 0.74);
+}
+div {
+  border-bottom: 1px solid black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Captura\ de\ Tela\ 2023-07-05\ às\ 15.51.20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  gap: 2rem;
+}
+div main {
+  border: 1px solid black;
+  height: 40%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  flex: 0.03;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(29, 231, 120);
+  background-color: black;
+  
+}
+div aside button {
+  background-color: rgb(138, 151, 221);
+  border-radius: 10px;
+  font-size: 140%;
+  color: rgb(29, 231, 120);
+  background-color: black;
+  
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.coolor {
+  color: rgb(29, 231, 120);
+  background-color: black;
+  border-radius: 10px;
+}
